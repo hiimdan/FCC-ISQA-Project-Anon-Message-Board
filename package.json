@@ -1,0 +1,34 @@
+{
+  "name": "anon-message-board",
+  "version": "0.0.1",
+  "description": "Allows for the creation of multiple threads accross different boards and for users to reply within threads",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "cors": "^2.8.1",
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^3.2.0",
+    "mongodb": "^2.2.16",
+    "mongoose": "^5.5.5",
+    "zombie": "^5.0.5",
+    "helmet": "^3.1.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://hyperdev.com/#!/project/welcome-project"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "message-board"
+  ],
+  "license": "MIT"
+}
